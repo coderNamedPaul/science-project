@@ -21,6 +21,7 @@ def door ():
     penColor(77, 41, 0)
     brushColor(77, 41, 0)
     rectangle(240, 190, 360, 379)
+
 roof()
 frame()
 windows()
