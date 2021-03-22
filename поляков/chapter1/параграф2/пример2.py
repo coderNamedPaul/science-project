@@ -1,0 +1,12 @@
+a = input('число один: ')  # функция input по умолчанию заносит данные как string
+b = input('число два: ')
+print(a, '+', b, '=', a+b, sep='')
+a = int(a)
+b = int(b)
+print(a, '+', b, '=', a+b, sep='')
+a = float(a)
+b = float(b)
+print(a, '+', b, '=', a+b, sep='')
+a = int(a)
+b = float(b)
+print(a, '+', b, '=', a+b, sep='')
