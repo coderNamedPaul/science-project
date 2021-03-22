@@ -1,5 +1,0 @@
-print('введите свое имя: ', end='')
-name = input()
-print('привет', name, sep=', ')
-name = input('введите свое имя: ')
-print('привет,', name)
